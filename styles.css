@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+  font-family: "poppins", sans-serif;
+
+  color: #30261c;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent !important; /*override bootstrap background nav color*/
+}
+
+/* navbar links */
+.navbar a {
+  font-family: "poppins", sans-serif;
+}
+
+/* hero section */
+.hero {
+  min-height: 864px;
+  padding-top: 315px; /*navbar height*/
+  background: linear-gradient(to bottom, #63483a 0%, #63483a 40%, #868686 100%);
+}
+
+h1 {
+  font-family: "playfair display", sans-serif;
+  font-size: 72px;
+}
+
+.hero-contents {
+  color: white;
+}
+
+.c-nav-pill {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.c-btn-round {
+  border-radius: 50px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero-img {
+}
