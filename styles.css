@@ -8,8 +8,12 @@
 
 Body {
   font-family: "poppins", sans-serif;
-
   color: #30261c;
+}
+
+body,
+html {
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -28,7 +32,7 @@ Body {
 /* hero section */
 .hero {
   min-height: 864px;
-  padding-top: 315px; /*navbar height*/
+  padding-top: 200px; /*navbar height*/
   background: linear-gradient(to bottom, #63483a 0%, #63483a 40%, #868686 100%);
 }
 
@@ -58,4 +62,39 @@ h1 {
 }
 
 .hero-img {
+  position: absolute;
+  top: -480px; /* or top: 50%; adjust as needed */
+  left: 50%;
+  transform: translateX(-50%); /* center image horizontally */
+  width: 150%; /* make the image larger */
+  max-width: none; /* override Bootstrap limits */
+  height: auto;
+}
+
+/* coffee beans positioning */
+.bean {
+  position: absolute;
+}
+
+.bean-1 {
+  top: -170px;
+  left: 300px;
+  width: 70px;
+}
+
+.bean-2 {
+  top: 0;
+  right: -60px;
+}
+
+.bean-3 {
+  top: -210px;
+  left: 0;
+  width: 45px;
+}
+
+.bean-4 {
+  top: 0;
+  left: 300px;
+  width: 50px;
 }
