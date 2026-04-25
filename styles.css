@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  cursor: pointer;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -29,12 +33,12 @@ html {
     to bottom,
     rgba(99, 72, 58, 0.95) 0%,
     rgba(99, 72, 58, 0.6) 80%,
-    transparent 90%
+    transparent 100%
   );
 
   /*blur behind the navbar*/
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(5px); 
+  -webkit-backdrop-filter: blur(10px); */
 }
 
 /* navbar links */
@@ -185,7 +189,7 @@ h5 {
     rgba(124, 119, 110, 0.2)
   );
   color: #2a0000;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 
 .card-body ul {
@@ -195,8 +199,7 @@ h5 {
 }
 
 .c-card:hover {
-  box-shadow: 0 15px 35px rgba(55, 31, 25, 1);
-  transform: scale(110%);
+  box-shadow: 0 15px 35px rgba(210, 138, 59, 0.8);
 }
 
 /*Animations*/
