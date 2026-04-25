@@ -47,6 +47,7 @@ html {
   min-height: 864px;
   padding-top: 200px; /*navbar height*/
   background: linear-gradient(to bottom, #63483a 0%, #63483a 40%, #868686 100%);
+  overflow: hidden;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h1 {
 
 h2 {
   font-family: "playfair display", sans-serif;
+  font-size: 25px;
 }
 
 h5 {
@@ -146,6 +148,7 @@ h5 {
 /*FEATURED SECTION*/
 .featured {
   background-color: #e2d9c8;
+  overflow: hidden;
 }
 
 .card {
@@ -190,6 +193,18 @@ h5 {
 }
 
 .fade-in {
-  animation: fadeIn 1s ease forwards;
-  will-change: transform, opacity;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.4s;
+}
+
+.delay {
+  animation-delay: 0.6s;
 }
