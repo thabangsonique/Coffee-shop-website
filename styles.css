@@ -91,7 +91,7 @@ h5 {
   left: 50%;
   transform: translateX(-50%); /* center image horizontally */
   width: 150%; /* make the image larger */
-  max-width: none; /* override Bootstrap limits */
+  max-width: 100vw; /* override Bootstrap limits */
   height: auto;
 }
 
@@ -170,6 +170,10 @@ h5 {
 .btn-primary:hover {
   background-color: white;
   color: black;
+}
+
+.about-us {
+  overflow: hidden;
 }
 
 /*Animations*/
