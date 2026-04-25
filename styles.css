@@ -184,6 +184,19 @@ h5 {
     rgba(124, 119, 110, 0),
     rgba(124, 119, 110, 0.2)
   );
+  color: #2a0000;
+  transition: all 0.3s;
+}
+
+.card-body ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.c-card:hover {
+  box-shadow: 0 15px 35px rgba(55, 31, 25, 1);
+  transform: scale(110%);
 }
 
 /*Animations*/
