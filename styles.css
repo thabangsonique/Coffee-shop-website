@@ -18,7 +18,12 @@ html {
 }
 
 a {
+  text-decoration: none;
   cursor: pointer;
+}
+
+a:hover {
+  color: rgb(108, 108, 108);
 }
 
 .navbar {
@@ -206,13 +211,28 @@ h5 {
   box-shadow: 0 15px 35px rgba(210, 138, 59, 0.8);
 }
 
+/* VISIT US SECTION */
 .c-visit-us {
   background-color: #e2d9c8;
 }
+
+.c-visit-us a {
+  color: #2a0000;
+}
+
+.c-visit-us a:hover {
+  color: rgb(108, 108, 108);
+}
+
 /*FOOTER SECTION*/
 footer {
   background-color: #30261c;
   color: white;
+}
+
+footer a {
+  color: white;
+  transition: all 0.3s;
 }
 
 footer ul {
