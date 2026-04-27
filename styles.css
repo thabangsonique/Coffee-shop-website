@@ -152,10 +152,22 @@ h5 {
 
 .facebook-icon {
   width: 33px;
+  transition: all 0.4s;
 }
 
 .instagram-icon {
   width: 33px;
+  transition: all 0.4s;
+}
+
+.facebook-icon:hover {
+  transform: scale(120%);
+  filter: drop-shadow(0 14px 15px rgba(0, 0, 0, 1));
+}
+
+.instagram-icon:hover {
+  transform: scale(120%);
+  filter: drop-shadow(0 14px 15px rgba(0, 0, 0, 1));
 }
 
 /*FEATURED SECTION*/
