@@ -257,6 +257,55 @@ footer ul {
 }
 /*Animations*/
 
+/*media queries*/
+@media (max-width: 1000px) {
+  .hero-img {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .about-us {
+    padding-bottom: 50px;
+  }
+
+  #menu {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .menu-button {
+    padding-top: 30px;
+  }
+
+  .visit-us-img {
+    padding-top: 40px;
+  }
+
+  .footer-img {
+    align-items: center;
+  }
+
+  .footer-text-1 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .footer-text-2 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .footer-text-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-img {
+    display: none;
+  }
+}
+
 @keyframes float {
   0% {
     transform: translate(0px, 0px);
