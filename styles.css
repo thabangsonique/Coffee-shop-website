@@ -202,6 +202,9 @@ h5 {
   box-shadow: 0 15px 35px rgba(210, 138, 59, 0.8);
 }
 
+.c-visit-us{
+  background-color: #E2D9C8;
+}
 /*Animations*/
 
 @keyframes float {
